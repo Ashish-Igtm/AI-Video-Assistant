@@ -1,0 +1,34 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Downloaded YouTube audio/video
+downloads/*
+!downloads/.gitkeep
+
+# Local vector database
+vector_db/
+chroma_db/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
